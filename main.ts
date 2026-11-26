@@ -12,11 +12,13 @@
 // and Russia's record military budget. Drawn by compose.py (Pillow).
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
-//   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main-r2.ts
+//   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
 import { copyFileSync, mkdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
 
+// The program has no flags: the only input is the image beside it
+// and the optional MAKEFUN_OUTPUT_DIR, so both runs write the same bytes.
 const MAX_BYTES = 1048576;
 const EXPECTED_WIDTH = 1024;
 const EXPECTED_HEIGHT = 1024;

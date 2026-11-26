@@ -36,7 +36,8 @@ flags an emerging COVID variant in the US and China.
 
 The front page is composed deterministically by `compose.py` in the build
 workspace (the repository holds the finished `entry.png`); the hero picture
-and the four smaller panels are drawn illustrations.
+and the four smaller panels are drawn illustrations. Every story on the
+page is dated 26 November 2026 and none of them appeared in round 1.
 
 ## The program
 
